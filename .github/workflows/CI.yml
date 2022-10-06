@@ -27,9 +27,9 @@ jobs:
       
       #Setup GO
       - name: Setup Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v3
         with:
-          go-version: ‘1.18’
+          go-version: '1.18'
       
       # Get dependencies    
       - name: Install dependencies
