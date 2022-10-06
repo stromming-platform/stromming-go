@@ -32,23 +32,23 @@ jobs:
           go-version: '1.18'
       
       # Get dependencies    
-      - name: Install dependencies
-        run: |
-          go version
+      #- name: Install dependencies
+      #  run: |
+      #    go version
       
       # Run vet and lint
-      - name: Run vet & lint
-        run: |
-          go vet .
+      #- name: Run vet & lint
+      #  run: |
+      #    go vet .
       
       #Attempt to build
-      - name: Run build
-        run: go build .
+      #- name: Run build
+      #  run: go build .
       
       # Run tests
-      - name: Run testing
-        run: |
-          echo To be implemented
+      #- name: Run testing
+      #  run: |
+      #    echo To be implemented
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
